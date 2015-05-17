@@ -8,7 +8,7 @@ tags:
 ---
 #前言
 
-Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。
+Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的应该都知道，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。
 ![MacDown Screenshot](http://d.pr/i/10UGP+)
 <!--more-->
 ##MacDown
@@ -95,5 +95,6 @@ Footnotes           | [\^4] and [\^4]: | [^4] and footnote 4   |
 
 [^4]: You don't have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. 
 
-
+##结语
+无论使用MarkDown还是Mou，重要的是我们能写一些优质的博文，让自己的一些经验可以为后来者提供解决方案才是最重要的。后续我也会叫自己的一些技术类经验和资料整合在博客上，也会增加一些非技术类的博文。
 

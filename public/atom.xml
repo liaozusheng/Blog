@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Undefined geust/a iOS Program Developer]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liaozusheng.github.io/"/>
-  <updated>2015-05-17T04:28:34.000Z</updated>
+  <updated>2015-05-17T04:50:34.000Z</updated>
   <id>http://liaozusheng.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://liaozusheng.github.io/2015/05/17/markdown%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E4%B8%80MacDown/"/>
     <id>http://liaozusheng.github.io/2015/05/17/markdown最好用的编辑器之一MacDown/</id>
     <published>2015-05-17T03:13:18.000Z</published>
-    <updated>2015-05-17T04:28:34.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="前言">前言</h1><p>Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。<br><img src="http://d.pr/i/10UGP+" alt="MacDown Screenshot"><br><a id="more"></a></p>
+    <updated>2015-05-17T04:50:34.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="前言">前言</h1><p>Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的应该都知道，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。<br><img src="http://d.pr/i/10UGP+" alt="MacDown Screenshot"><br><a id="more"></a></p>
 <h2 id="MacDown">MacDown</h2><p>估计有很多人会在MacDown和Mou谁更好用产生不同的意见，确实Mou是先行者，MacDown在某系方面是有借鉴Mou的，0到1和1到100差距无疑是巨大的。但是作为使用者，其实没必要去考虑哪个更好用。只要用得习惯，操作顺手就行。而MacDown作者Chung的一句话也表明了他的立场。</p>
 <blockquote>
 <p>Let’s focus on making better software for everyone.</p>
@@ -145,9 +145,10 @@
 </tbody>
 </table>
 <p>[^4]: You don’t have to use a number. Arbitrary things like <code>[^footy note4]</code> and <code>[^footy note4]:</code> will also work. But they will <em>render</em> as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. </p>
+<h2 id="结语">结语</h2><p>无论使用MarkDown还是Mou，重要的是我们能写一些优质的博文，让自己的一些经验可以为后来者提供解决方案才是最重要的。后续我也会叫自己的一些技术类经验和资料整合在博客上，也会增加一些非技术类的博文。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="前言">前言</h1><p>Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。<br><img src="http://d.pr/i/10UGP+" alt="MacDown Screenshot"><br>]]>
+    <![CDATA[<h1 id="前言">前言</h1><p>Hexo博客是markdown语法，就是我们熟悉的md后缀，经常上github，或是iOS项目README都是使用md的应该都知道，当时我也不知道，以为就是类似于txt格式的文本文件。在hexo的教程里面都说Sublime Text是支持markdown语法的，实际上就只是代码高亮。其实真正的问题在于markdown语法很严格（特别是空格），在编辑博客的时候经常发生一些细节的小问题，而且每次要生成在本地跑一次预览一下，然后再修改，再生成，再预览……很是麻烦。所以急需一款可以实时预览的编辑器。<br><img src="http://d.pr/i/10UGP+" alt="MacDown Screenshot"><br>]]>
     
     </summary>
     
