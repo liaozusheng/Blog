@@ -1,7 +1,9 @@
 title: "hexo部署常见问题（Mac）"
 date: 2015-05-14 22:45:27
 categories: 技术
-tags: [博客，hexo，Problem]
+tags: 
+- hexo
+- 常见问题
 ---
 
 其实在很早之前我就有接触自定义博客（Hexo，octopress），看过一些关于自定义博客的文章，那时认为这其实没什么技术含量，所谓的逼格高只是相对于业外人士，业外人士也不会很感兴趣。
@@ -37,21 +39,21 @@ More info: [hexo.js官网](http://hexo.io/)
 
     首先，要修改hexo的配置文件
     找到 Deployment部分原代码如下：
-    ``` bash
+   ``` bash
 		# Deployment
 		## Docs: http://hexo.io/docs/deployment.html
 		deploy:
 		  type:
-	```
+   ```
 	修改为：
-	``` bash
+``` bash
 		# Deployment
 		## Docs: http://hexo.io/docs/deployment.html
 		deploy:
 		  type: git
 		  repository: git@github.com:liaozusheng/liaozusheng.github.io.git
 		  branch: master
-    ```
+```
 	保存之后 hexo c
 	        hexo g  ——养成clear再generate的习惯
 	        hexo d  这时候状况就很多，报错按下文第四部解决

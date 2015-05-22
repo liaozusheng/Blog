@@ -106,7 +106,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/博客，hexo，Problem/" style="font-size: NaNpx;">博客，hexo，Problem</a>
+						<a href="/tags/hexo/" style="font-size: 20px;">hexo</a><a href="/tags/macdown/" style="font-size: 10px;">macdown</a><a href="/tags/markdown/" style="font-size: 10px;">markdown</a><a href="/tags/博客/" style="font-size: 10px;">博客</a><a href="/tags/常见问题/" style="font-size: 10px;">常见问题</a>
 					</div>
 				</section>
 				
@@ -117,7 +117,7 @@
 				
 				<section class="switch-part switch-part3">
 				
-					<div id="js-aboutme">我能感觉到这城市带来的满满的恶意</div>
+					<div id="js-aboutme">非常感谢大家进入我的博客，博客内容正在完善中……</div>
 				</section>
 				
 			</div>
@@ -194,7 +194,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，hexo，Problem/">博客，hexo，Problem</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/常见问题/">常见问题</a></li></ul>
 	</div>
 
         
@@ -217,16 +217,14 @@
 </code></pre><p>More info: <a href="http://hexo.io/" target="_blank" rel="external">hexo.js官网</a></p>
 <h3 id="第三步_将博客部署到git服务器上">第三步 将博客部署到git服务器上</h3><pre><code>首先，要修改hexo的配置文件
 找到 Deployment部分原代码如下：
-<span class="comment"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>:</span><br></pre></td></tr></table></figure></span>
-
-修改为：
-<span class="comment"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: git@github.com:liaozusheng/liaozusheng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></span>
-
-保存之后 hexo c
-        hexo g  ——养成clear再generate的习惯
-        hexo d  这时候状况就很多，报错按下文第四部解决
+</code></pre>   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>:</span><br></pre></td></tr></table></figure>
+<pre><code>修改为：
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: git@github.com:liaozusheng/liaozusheng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<pre><code>保存之后 hexo c
+        hexo <span class="keyword">g</span>  ——养成<span class="keyword">clear</span>再<span class="keyword">generate</span>的习惯
+        hexo <span class="keyword">d</span>  这时候状况就很多，报错按下文第四部解决
 如果成功了就可以通过地址
-https://liaozusheng.github.io来访问了。
+https:<span class="comment">//liaozusheng.github.io来访问了。</span>
 后续有时间的话可能还会po一些优化hexo的文章。  
 </code></pre><h3 id="第四步_执行hexo_d报错的一些处理">第四步 执行hexo d报错的一些处理</h3><pre><code>如果报这个错  ERROR Deployer <span class="keyword">not</span> found: git
 就执行这段命令 npm install hexo-deployer-git <span class="comment">--save</span>
@@ -249,6 +247,15 @@ hexoKey  hexoKey.pub   ——我生成的证书名字
   
     
 <nav id="article-nav">
+  
+    <a href="/2015/05/17/markdown最好用的编辑器之一MacDown/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          markdown最好用的编辑器之一MacDown
+        
+      </div>
+    </a>
   
   
     <a href="/2015/05/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
